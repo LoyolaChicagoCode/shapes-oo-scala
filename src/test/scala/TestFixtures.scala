@@ -2,7 +2,7 @@ package edu.luc.cs.laufer.cs371.shapes
 
 import Shape.*
 
-object TestFixtures {
+object TestFixtures:
 
   // TODO comment these fixtures back in after adding the required case classes
 
@@ -33,4 +33,5 @@ object TestFixtures {
   //        )),
   //        Rectangle(100, 200)
   //    ))
-}
+
+end TestFixtures

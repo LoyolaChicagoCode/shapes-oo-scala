@@ -5,7 +5,7 @@ import org.scalatest.funsuite.AnyFunSuite
 import TestFixtures.*
 import Shape.*
 
-class TestBoundingBox extends AnyFunSuite {
+class TestBoundingBox extends AnyFunSuite:
 
   def testBoundingBox(description: String, s: Shape, x: Int, y: Int, width: Int, height: Int) =
     test(description) {
@@ -24,4 +24,5 @@ class TestBoundingBox extends AnyFunSuite {
   //  testBoundingBox("basic group", basicGroup, -50, -30, 100, 70)
   //  testBoundingBox("simple group", simpleGroup, 150, 70, 350, 280)
   //  testBoundingBox("complex group", complexGroup, 30, 60, 470, 320)
-}
+
+end TestBoundingBox
