@@ -9,7 +9,7 @@ class TestBoundingBox extends AnyFunSuite:
 
   def testBoundingBox(description: String, s: Shape, x: Int, y: Int, width: Int, height: Int): Unit =
     test(description):
-      val Location(u, v, Rectangle(w, h)) = boundingBox(s)
+      val Location(u, v, Rectangle(w, h)) = boundingBox(s) : @unchecked
       assert(x == u)
       assert(y == v)
       assert(width == w)
